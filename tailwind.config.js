@@ -3,7 +3,11 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   content: ["index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'rubik':["Rubik"],
+      }
+    },
   },
   plugins: [],
 }
